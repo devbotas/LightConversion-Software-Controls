@@ -3,7 +3,7 @@
 Reusable WPF Controls!
 
 Add this to your application resources:
-
+```xml
 <Application>
     <Application.Resources>
         <ResourceDictionary>
@@ -13,3 +13,4 @@ Add this to your application resources:
         </ResourceDictionary>
     </Application.Resources>
 </Application>
+```
