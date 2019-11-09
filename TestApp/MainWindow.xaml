@@ -1,0 +1,29 @@
+﻿<Window x:Class="TestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:LightConversion.Software.Controls;assembly=LightConversion.Software.Controls"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:TestApp"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="MainWindow"
+        Width="525"
+        Height="350"
+        mc:Ignorable="d">
+    <Grid>
+        <controls:PopupAction x:Name="popup"
+                              HorizontalAlignment="Center" VerticalAlignment="Center">
+            <controls:PopupAction.Anchor>
+                <Label Content="popup is here" />
+            </controls:PopupAction.Anchor>
+
+            <UniformGrid Columns="2">
+                <Label Content="Content of popup" />
+                <Button Content="Content of popup" />
+
+                <Label Content="input" />
+                <Button Content="input" />
+            </UniformGrid>
+
+        </controls:PopupAction>
+    </Grid>
+</Window>
