@@ -1,6 +1,9 @@
 #LightConversion.Software.Controls
+
 Reusable WPF Controls!
+
 Add this to your application resources:
+
 <Application>
     <Application.Resources>
         <ResourceDictionary>
